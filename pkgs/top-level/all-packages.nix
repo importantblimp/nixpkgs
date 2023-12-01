@@ -2212,6 +2212,8 @@ with pkgs;
 
   cgit-pink = callPackage ../applications/version-management/cgit/pink.nix { };
 
+  cgl = callPackage ../applications/science/math/cgl/default.nix { };
+
   commit-formatter = callPackage ../applications/version-management/commit-formatter { };
 
   commitlint = nodePackages."@commitlint/cli";
